@@ -1,1 +1,0 @@
-# web_cam_project
