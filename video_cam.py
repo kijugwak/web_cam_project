@@ -4,7 +4,7 @@ import cv2
 
 cap = cv2.VideoCapture(0)       # 0번 카메라 연결
 if cap.isOpened:
-    file_path = '/home/바탕화면/test_kiju/record.avi'       # 저장할 파일 경로 이름
+    file_path = '/home/vision/바탕화면/test_kiju/lala.avi'       # 저장할 파일 경로 이름
     fps = 30.0                                                 # FPS, 초당 프레임 수
     fourcc = cv2.VideoWriter_fourcc(*'DIVX')  # 인코딩 포맷 문자
     width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
